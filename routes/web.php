@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/authorize', 'Authorize@Authorize');
+
+Route::get('/createUser', 'Authorize@CreateUser');
